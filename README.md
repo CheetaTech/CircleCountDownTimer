@@ -5,10 +5,9 @@ user can get more efficient ui experience.
 
 ## Features
 
-  * Select easily a color which color palette page with sliding tabs that name is **`Material, Flat, Social, Metro and HTML`**.
-  * See Color's name and _HEX_ Code in GridView.
-  * Copy Color _HEX_ Code to the clipboard with button that is in the right bottom on the GridView.
-  * Create your _Colors_ with **`Color Picker`** page. This Hex code includes **`Alpha`** Channel.
+  * Start and stop timer when you want
+  * You can use speedUp, speedDown or reset features for various usage like percentage,progressing state etc. 
+    We will continue to develop and add this features soon
 
 ## Code Example
 
@@ -27,11 +26,12 @@ user can get more efficient ui experience.
         circleTimer.reset();
         circleTimer.speedUp();
         circleTimer.speedDown();
- 
- ##Contributers
+
+
+##Contributers
  
  * [Ali Güvenbaş](https://github.com/aliguvenbas)
  
- ## Collaborate
+## Collaborate
 
 We are developing this application in public to bring you a tool that _you_ want to use. Please feel free to open [issues](https://github.com/CheetaTech/ColorHub/issues) and [contact](https://cheetatech.wordpress.com/) us for any suggestion and advice . See our [website](https://cheetatech.wordpress.com/) for more. 
