@@ -27,11 +27,4 @@ user can get more efficient ui experience.
         circleTimer.speedUp();
         circleTimer.speedDown();
 
-
-##Contributers
  
- * [Ali Güvenbaş](https://github.com/aliguvenbas)
- 
-## Collaborate
-
-We are developing this application in public to bring you a tool that _you_ want to use. Please feel free to open [issues](https://github.com/CheetaTech/ColorHub/issues) and [contact](https://cheetatech.wordpress.com/) us for any suggestion and advice . See our [website](https://cheetatech.wordpress.com/) for more. 
