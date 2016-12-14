@@ -1,7 +1,6 @@
 package com.ch.circlecountdowntimer;
 
 import android.graphics.Color;
-import android.graphics.Paint;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -39,30 +38,36 @@ public class MainActivity extends AppCompatActivity {
                 state = STOP;
                 circleTimer.stop();
                 btn.setText("START");
+                Toast.makeText(getApplicationContext(), "STOP!", Toast.LENGTH_SHORT).show();
                 btn.setBackgroundColor(Color.GREEN);
                 break;
             case STOP:
                 state = START;
                 circleTimer.start();
                 btn.setText("STOP");
+                Toast.makeText(getApplicationContext(), "START!", Toast.LENGTH_SHORT).show();
                 btn.setBackgroundColor(Color.RED);
                 break;
             default:
                 state = START;
                 circleTimer.start();
                 btn.setText("STOP");
+                Toast.makeText(getApplicationContext(), "BEGIN!", Toast.LENGTH_SHORT).show();
                 btn.setBackgroundColor(Color.RED);
                 break;
         }
     }
 
-    public void reset(View v){
+    public void reset(View v) {
+        Toast.makeText(getApplicationContext(), "RESET!", Toast.LENGTH_SHORT).show();
         circleTimer.reset();
     }
-    public void speedUp(View v){
+
+    public void speedUp(View v) {
         circleTimer.speedUp();
     }
-    public void speedDown(View v){
+
+    public void speedDown(View v) {
         circleTimer.speedDown();
     }
 }
