@@ -3,6 +3,8 @@
 This is a custom view that contains a count down timer with a circle view. With this component, 
 user can get more efficient ui experience.
 
+![ColorHub Screenshots](/img/videotogif_2016.12.14_19.05.04.gif) 
+
 ## Features
 
   * Start and stop timer when you want
